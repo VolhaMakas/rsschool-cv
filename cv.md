@@ -7,7 +7,7 @@
 ----
 ## About
 
- I am a student at Rolling Scopes School. I am studying web-technology, particularly frontend. I have almost 10 years experience in dentistry. But life changet, me and my family have moved to another country. So I decided to try to change my profession. I have good social qualities, calmness and resistance to hard work.  
+ I am a student at Rolling Scopes School. I am studying web-technology, particularly frontend. I have almost 10 years experience in dentistry. But life has changed, me and my family have moved to another country. So I decided to try to change my profession. I have good social qualities, calmness and resistance to hard work.  
   
  ----
 ## Skills
