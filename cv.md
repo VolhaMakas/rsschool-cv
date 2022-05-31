@@ -27,6 +27,3 @@
 * Russian (native)
 * Belorussian
 * Courses of Chech (A1)
-
-
-
