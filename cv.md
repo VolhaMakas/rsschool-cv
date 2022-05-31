@@ -18,11 +18,18 @@
 
 ### I have almost 10 years experience in dentistry. So I have good social qualities, calmness and resistance to hard work.
 ----
-##  Education:
+##  Education
 * Belarussian State Medical University, Dental faculty
 * BSMU clinical residency
 * Copywriting courses
 * HTML, CSS for beginners ( CodeBasics),HTML Academy
 ----
+## Languages
+* English (B1)
+![English](cv.png)
+* Russian (native)
+* Belorussian
+* Courses of Chech (A1)
+
 
 
