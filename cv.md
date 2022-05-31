@@ -7,16 +7,14 @@
 ----
 ## About
 
-### I am a dentist. I do not have special knowledge and skills in web. But life is changing, the circumstances led me and my family to another country.  
-### So I decided to try to change my profession. Because I can’t confirm my medical diploma in each country we move to :) 
-### Among my qualities I want to highlight patience, perseverance and desire to learn.
- ---
-## Code example
-### I don’t have any code examples yet.
+ I am a student at Rolling Scopes School. I am studying web-technology, particularly frontend. I have almost 10 years experience in dentistry. But life changet, me and my family have moved to another country. So I decided to try to change my profession. I have good social qualities, calmness and resistance to hard work.  
+  
  ----
 ## Skills
+* HTML
+* CSS
+* Git
 
-### I have almost 10 years experience in dentistry. So I have good social qualities, calmness and resistance to hard work.
 ----
 ##  Education
 * Belarussian State Medical University, Dental faculty
@@ -26,7 +24,6 @@
 ----
 ## Languages
 * English (B1)
-![English](cv.png)
 * Russian (native)
 * Belorussian
 * Courses of Chech (A1)
