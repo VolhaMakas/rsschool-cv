@@ -1,20 +1,114 @@
-.font{
-font-family: 'Nuosu SIL', serif;
-}
-.page-body {
-background-color:bisque;
-min-height: 100%;
-margin: 0 auto;
-padding: 0;
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.5;
+    background-color:bisque;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0px auto;
+    margin-left: 100px;
+  }
+.main-container {
+    display: flex;
+  /* flex-wrap: wrap; */
 }
 
-.left-side {
-    width: 100%;
-    color: rgb(255, 255, 255);
-    background-color: rgb(rgb(54, 5, 5), green, blue);
-}
+.section {
+    width: 80%;
+    margin-bottom: 30px;
 
+  }
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
 .nav{
     display: flex;
-    justify-content: space-between;
+    
+    color:white;
+    text-decoration: none;
+    background-color: rgb(131, 101, 81);
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 60px;
+}
+.nav-item{
+    flex: 1;
+}
+html {
+    scroll-behavior: smooth; 
+  }
+  .photo {
+      border-radius: 25px;
+  }
+.link{
+    display: flex;
+    color: beige;
+    text-decoration: none;
+    height: 30px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;  
+    transition: color .4s;
+    margin-left: 0px;
+}
+
+.link:hover {
+    color: #442b2b;
+  }
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: beige;
+    background-color: rgb(131, 101, 81);
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    
+  }
+.contact{
+    background-color: rgb(rgb(124, 118, 111), green, blue);
+}
+.contact-list {
+    list-style: none;
+    margin: 0;
+    margin-left: 25px;
+    margin-right: 40px;
+    padding: 0;
+    font-weight: 100;
+}
+
+.contact__item {
+    margin-bottom: 25px;
+    font-size: medium;
+    text-align: center;
+}
+
+.list-dot::before {
+    content: '\2022';
+    margin-right: 5px;
+    color:#4a2c18; 
+}
+.skill-item, .education-item, .languages-item {
+    margin-top: 10px;
+}
+.left-side {
+    background-color: rgb(194, 148, 96);
+}
+p {
+    margin-bottom: 2em;
 }
