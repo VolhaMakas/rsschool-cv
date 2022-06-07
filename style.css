@@ -12,16 +12,19 @@ body {
   .container {
     max-width: 1440px;
     margin: 0px auto;
-    margin-left: 100px;
+    margin-left: 0px;
   }
 .main-container {
     display: flex;
+    margin-top: 60px;
   /* flex-wrap: wrap; */
+
 }
 
 .section {
     width: 80%;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+    margin-left: 40px;
 
   }
   @media (max-width: 768px) {
@@ -38,7 +41,6 @@ body {
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-    margin-bottom: 60px;
 }
 .nav-item{
     flex: 1;
@@ -48,6 +50,9 @@ html {
   }
   .photo {
       border-radius: 25px;
+      border: 10px solid bisque;
+      margin-right: 30px;
+      border-color: bisque ;
   }
 .link{
     display: flex;
@@ -77,7 +82,7 @@ html {
     background-color: rgb(131, 101, 81);
     display: inline-block;
     margin-bottom: 15px;
-    margin-left: 15px;
+    margin-left: 1px;
     
   }
 .contact{
@@ -86,29 +91,62 @@ html {
 .contact-list {
     list-style: none;
     margin: 0;
-    margin-left: 25px;
+    margin-left: -12px;
     margin-right: 40px;
     padding: 0;
     font-weight: 100;
 }
 
-.contact__item {
+.contact-item {
     margin-bottom: 25px;
-    font-size: medium;
-    text-align: center;
+    margin-left: 10px;
 }
+.contact-item::before {
+    content:'';
+    display: inline-block;
+}
+.contact-mail::before {
+    background: url(./icons/email.svg) no-repeat center / contain;
+    width: 20px;
+    height: 20px;   
+}
+
+.contact-github::before {
+    background: url(./icons/github.svg) no-repeat center / contain;
+    width: 20px;
+    height: 20px;   
+}
+.contact-number::before {
+    background: url(./icons/phone.svg) no-repeat center / contain;
+    width: 20px;
+    height: 20px;
+}
+.contact-discord::before {
+    background: url(./icons/icons8-discord-500.svg) no-repeat center / contain;
+    width: 20px;
+    height: 20px; 
+}
+
 
 .list-dot::before {
     content: '\2022';
     margin-right: 5px;
     color:#4a2c18; 
+    padding-right: 5px;
 }
 .skill-item, .education-item, .languages-item {
     margin-top: 10px;
 }
 .left-side {
     background-color: rgb(194, 148, 96);
+    margin-top: 0px;
+    
 }
 p {
     margin-bottom: 2em;
+    font-size: 20px;
+}
+.section_name .section_contacts {
+    text-align: justify;
+    padding-left: 15px;
 }
