@@ -17,9 +17,9 @@
 
 ----
 ##  Education
-* Belarussian State Medical University, Dental faculty
-* BSMU clinical residency
-* Copywriting courses
+* Belarussian State Medical University, Dental faculty 
+* BSMU clinical residency 
+* Copywriting courses 
 * HTML, CSS for beginners ( CodeBasics),HTML Academy
 ----
 ## Languages
