@@ -1,2 +1,1 @@
-# rsschool-cv
-pre-school
+https://VolhaMakas.github.io/rsschool-cv/cv
