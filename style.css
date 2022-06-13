@@ -1,4 +1,3 @@
-
 html {
     scroll-behavior: smooth; 
 }
@@ -7,7 +6,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
     background-color:#feeeda;
-    margin: 0 auto;
 }
 html, body {
     height: 100%;
@@ -18,8 +16,7 @@ html, body {
 }
 .container {
     max-width: 1440px;
-    margin: 0px auto;
-    margin-left: 0px;
+    width: 100%;
 }
 .main-container {
     display: flex;
@@ -33,28 +30,22 @@ html, body {
     margin-left: 30px;
 }
 
-@media (max-width: 768px) {
-    .section {
-      width: 100%;
-    }
-}
 .nav {
     display: flex;
-    color:#ffffff;
+    color:#fff;
     text-decoration: none;
     background-color: #836551;
     justify-content: flex-end;
     align-items: center;
-    list-style: none;
 }
 .nav-item {
     flex: 1;
 }
 
 .profile-image {
-      border-radius: 25px;
-      border: 10px solid #feeeda;
-      margin-right: 30px;
+    border-radius: 25px;
+    border: 10px solid #feeeda;
+    margin-right: 30px;
 }
       
 .link {
@@ -66,7 +57,6 @@ html, body {
     justify-content: center;
     align-items: center;
     padding: 0 20px;
-    text-decoration: none;  
     transition: color .4s;    
 }
 
@@ -78,7 +68,7 @@ html, body {
     font-size: 20px;
     text-transform: capitalize;
     letter-spacing: 2px;
-    color: #000000;
+    color: #000;
     text-decoration: underline;
     margin-bottom: 20px;
     display: flex;
@@ -93,7 +83,7 @@ html, body {
 }
   
 .contact-list {
-    margin-left: 0px;
+    margin-left: 0;
     margin-right: 40px;
 }
 
@@ -178,4 +168,10 @@ html, body {
 }
 .footer {
     background-color: #836551;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
 }
